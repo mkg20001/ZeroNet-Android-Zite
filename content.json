@@ -11,8 +11,8 @@
    "size": 250
   },
   "index.html": {
-   "sha512": "0c720ea66ff5a123c1f2182160b08b7df566daf293beaab27d15cfa9f883dafb",
-   "size": 2178
+   "sha512": "a09d7d7a2c3a911fd93b4c49fefd1bb6c0204926811f0b0d499066eb8c928042",
+   "size": 2240
   },
   "js/0/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -53,12 +53,12 @@
  },
  "ignore": "\\.git",
  "inner_path": "content.json",
- "modified": 1514995316,
+ "modified": 1514995709,
  "optional": ".*\\.apk",
  "postmessage_nonce_security": true,
  "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
  "signs": {
-  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "GySzQYKi6dYH6DjtIgFQd/yOfI8F+og1Oh8xnILaMOnpCR0t+oI2ECPtMEaiJCjfIjah0XMmiMMP6B+v4Fa5F20="
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HFiu05/lrBe8sel78A5F/pzTBR8csHfN+ea+cA6L0e/WTJFRQ2UKAG7pkG/ShIqan2HsQPY9SKLEc2rFkRPG8wQ="
  },
  "signs_required": 1,
  "title": "ZeroNet Android",
