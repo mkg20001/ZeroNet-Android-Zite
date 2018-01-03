@@ -11,8 +11,8 @@
    "size": 250
   },
   "index.html": {
-   "sha512": "2048709a75eb75ebb1bd3887ff6a8f8c8260b06eab1baa10bc7b3f1302981f16",
-   "size": 2313
+   "sha512": "2fb3d299b55e3ffea1c607c5ca28883b4c602306e4b2e96d88e049d1b839529f",
+   "size": 2363
   },
   "js/0/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -23,12 +23,12 @@
    "size": 86659
   },
   "js/all.js": {
-   "sha512": "2fac21443e36cf34e82bc81ca4b239ac92727267af082b641a508dc65cb65845",
-   "size": 91331
+   "sha512": "1e27e147e4daf600ca3c45aa53f5e5dee8b8e17bff31bf274208f4158b2d1b32",
+   "size": 91333
   },
   "js/page.js": {
-   "sha512": "5d6a54f41481d93f81774471364d7b4fa5543516d7c4503fc612ef8e186a7aad",
-   "size": 1078
+   "sha512": "5901a34fd43576c742267aa4f88bc4b4474ecdddd05fac86b352e95987ec9339",
+   "size": 1080
   },
   "metadata.json": {
    "sha512": "17a76b7e6df162dc8396bd3e581f57ff5f90fdcee1e445a7f09ad035517f039d",
@@ -53,12 +53,12 @@
  },
  "ignore": "\\.git",
  "inner_path": "content.json",
- "modified": 1514997045,
+ "modified": 1514997140,
  "optional": ".*\\.apk",
  "postmessage_nonce_security": true,
  "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
  "signs": {
-  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HIXQl6N7iN63LO/5mw9Vh773dQ4KVptU9mJQO3Z3UsHjBS0paHwJUdfHGCioclo0zy11TQpRtDyHCU4lVRoz97s="
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "G4tdpYXiCDDgdAt4A11A6y4hzdBUQlCHZSbgFJpoqo9PKDr96n8k6wTjNvwLiJnoCvTq/KkXNPF3Q0K/ITwPWD8="
  },
  "signs_required": 1,
  "title": "ZeroNet Android",

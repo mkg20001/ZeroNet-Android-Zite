@@ -14,7 +14,7 @@ class Page extends ZeroFrame {
         } else if (meta.rev === info.rev) {
           $('#isuptodate').addClass('ch-ok').text('Up-to-date!')
         } else if (meta.ver.split('.').slice(0, 3).join('.') === info.version.split('.').slice(0, 3).join('.')) {
-          $('#isuptodate').addClass('ch-ok').text('Bugfix update available!')
+          $('#isuptodate').addClass('ch-warn').text('Bugfix update available!')
         } else {
           $('#isuptodate').addClass('ch-nok').text('Outdated! Please upgrade!')
         }
