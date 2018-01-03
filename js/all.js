@@ -152,8 +152,8 @@ class Page extends ZeroFrame {
           $('#isuptodate').text('Not using ZeroNet Android!')
         } else if (meta.rev === info.rev) {
           $('#isuptodate').addClass('ch-ok').text('Up-to-date!')
-        } else if (meta.ver === info.version) {
-          $('#isuptodate').addClass('ch-ok').text('Some revisions behind!')
+        } else if (meta.ver.split('.').slice(0, 3).join('.') === info.version.split('.').slice(0, 3).join('.')) {
+          $('#isuptodate').addClass('ch-ok').text('Bugfix update available!')
         } else {
           $('#isuptodate').addClass('ch-nok').text('Outdated! Please upgrade!')
         }
