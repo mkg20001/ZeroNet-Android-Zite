@@ -1,0 +1,63 @@
+{
+ "address": "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2",
+ "address_index": 86419842,
+ "background-color": "#FFF",
+ "clone_root": "template-new",
+ "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
+ "description": "ZeroNet for Android",
+ "files": {
+  "index.html": {
+   "sha512": "0c720ea66ff5a123c1f2182160b08b7df566daf293beaab27d15cfa9f883dafb",
+   "size": 2178
+  },
+  "js/0/ZeroFrame.js": {
+   "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
+   "size": 3370
+  },
+  "js/0/jquery-3.2.1.min.js": {
+   "sha512": "dcff2b5c2b8625d3593a7531ff4ddcd633939cc9f7acfeb79c18a9e6038fdaa9",
+   "size": 86659
+  },
+  "js/all.js": {
+   "sha512": "d86658425252bcf6bdfe5d0445439b3c52b6ba3beb0a47a9a1b6e747bcdbf89b",
+   "size": 91127
+  },
+  "js/page.js": {
+   "sha512": "6b786a700ce481e601d00f1bcea0d9e23d5aa37e68fad27a36461ac12c6ecfcb",
+   "size": 874
+  },
+  "metadata.json": {
+   "sha512": "17a76b7e6df162dc8396bd3e581f57ff5f90fdcee1e445a7f09ad035517f039d",
+   "size": 50
+  },
+  "znlogo.png": {
+   "sha512": "b1080ad17cf1602c46c41c64bf70428a6ec3d135f76f3edc5830e4a6e7ac9bdb",
+   "size": 85802
+  }
+ },
+ "files_optional": {
+  "ZeroNet.apk": {
+   "piece_size": 1048576,
+   "piecemap": "ZeroNet.apk.piecemap.msgpack",
+   "sha512": "542e2be397ff813b86489cc1c30d6d18f42def279ec164ebcaf5f4f54b69854d",
+   "size": 16125136
+  },
+  "ZeroNet.apk.piecemap.msgpack": {
+   "sha512": "c46a42bc5475763e50c3fb0f3d922f40f4d18477cf9c8c8e94bedf752f35eee2",
+   "size": 591
+  }
+ },
+ "ignore": "\\.git",
+ "inner_path": "content.json",
+ "modified": 1514995082,
+ "optional": ".*\\.apk",
+ "postmessage_nonce_security": true,
+ "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
+ "signs": {
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HNRd1qcDjgN3T2MarzNlEYEpyweZQLZ+pFIXqhtZPA53J4WcYpeCtzXfnhhKf3+IC/2rwyp2n/TMcY66Rcv+Se8="
+ },
+ "signs_required": 1,
+ "title": "ZeroNet Android",
+ "translate": ["js/all.js"],
+ "zeronet_version": "0.6.0"
+}

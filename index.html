@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>ZeroNet Android</title>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <base href="" target="_top" id="base">
+  <script>
+    base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")
+  </script>
+  <style>
+  .content { width: 300px; margin: auto; top: 50%; position: relative; margin-top: 70px; text-align: center; }
+  .button { padding: 5px 10px; margin-left: 10px; background-color: #FFF85F; border-bottom: 2px solid #CDBD1E; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; -ms-border-radius: 2px; border-radius: 2px ; text-decoration: none; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s; transition: all 0.5s ; background-position: left center; }
+  .button:hover { background-color: #FFF400; border-bottom: 2px solid #4D4D4C; -webkit-transition: none ; -moz-transition: none ; -o-transition: none ; -ms-transition: none ; transition: none  }
+  .button:active { position: relative; top: 1px }
+  .button:focus { outline: none }
+  a .button, a { text-decoration: none !important; color: black; }
+  .seperator { border: 1px solid white; height: 2px; }
+  body { background: linear-gradient(264deg, #DFDFDF, #FFF) #DFDFDF; transition: all 2s; font-family: Consolas, monospace; }
+  .ch { padding: 5px 10px; background: rgba(200, 200, 200, .5); margin: 10px; margin-right: 0px; transition: all 1s; }
+  .ch-ok { background: rgba(50, 200, 50, .5) }
+  .ch-nok { background: rgba(200, 50, 50, .5) }
+  </style>
+</head>
+
+<body>
+
+  <div class="content">
+    <img src="./znlogo.png" width="128px" alt="ZeroNet Logo" />
+    <h1>ZeroNet Android</h1>
+    <div id="seperator"></div>
+    <h2>Current Version: <div class="curversion">...</div></h2>
+    <a href="./ZeroNet.apk"><div id="dllink" class="button">Download</div></a>
+    <div class="ch" id="isuptodate">Checking version...</div>
+
+  </div>
+
+  <div id="out"></div>
+
+</body>
+
+<script type="text/javascript" src="js/all.js?lang={lang}"></script>
+
+</html>
