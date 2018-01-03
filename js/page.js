@@ -9,7 +9,9 @@ class Page extends ZeroFrame {
         const meta = JSON.parse(data)
         meta.full = 'v' + meta.ver + ' (rev ' + meta.rev + ')'
         $('.curversion').text(meta.full)
-        if (meta.rev === info.rev) {
+        if (!info.version.match(/^[0-9]\.[0-9]\.[0-9]\.[0-9]$/)) {
+          $('#isuptodate').text('Not using ZeroNet Android!')
+        } else if (meta.rev === info.rev) {
           $('#isuptodate').addClass('ch-ok').text('Up-to-date!')
         } else if (meta.ver === info.version) {
           $('#isuptodate').addClass('ch-ok').text('Some revisions behind!')
