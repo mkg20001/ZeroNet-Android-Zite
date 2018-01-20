@@ -9,6 +9,9 @@ class Page extends ZeroFrame {
         const meta = JSON.parse(data)
         meta.full = 'v' + meta.ver + ' (rev ' + meta.rev + ')'
         $('.curversion').text(meta.full)
+        $('.date').text(moment(meta.date).format('MMM DD YYYY @ HH:mm'))
+        // $('.date').text(moment(meta.date).format('Do MMMM YYYY HH:mm'))
+        // $('.date').text(moment(meta.date).format('LLLL')) // Wednesday, January 3, 2018 4:25 PM
         if (!info.version.match(/^[0-9]\.[0-9]\.[0-9]\.[0-9]$/)) {
           $('#isuptodate').text('Not using ZeroNet Android!')
         } else if (meta.rev === info.rev) {

@@ -11,8 +11,8 @@
    "size": 250
   },
   "index.html": {
-   "sha512": "2fb3d299b55e3ffea1c607c5ca28883b4c602306e4b2e96d88e049d1b839529f",
-   "size": 2363
+   "sha512": "fa08f98484c4ff2f564dd611e43256f16fdb5856b17cdc7cd1cedf08bc5d0f9b",
+   "size": 2455
   },
   "js/0/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -22,16 +22,20 @@
    "sha512": "dcff2b5c2b8625d3593a7531ff4ddcd633939cc9f7acfeb79c18a9e6038fdaa9",
    "size": 86659
   },
+  "js/0/moment.min.js": {
+   "sha512": "419fa651f350826ebb4ef5f375352a504886638e1d1394ef5d18197ba45d8e48",
+   "size": 51599
+  },
   "js/all.js": {
-   "sha512": "1e27e147e4daf600ca3c45aa53f5e5dee8b8e17bff31bf274208f4158b2d1b32",
-   "size": 91333
+   "sha512": "09358a06f7f7af83bd544b87eed6da32f9cb4be79becd9cc6f0f9b1de83f05ac",
+   "size": 143255
   },
   "js/page.js": {
-   "sha512": "5901a34fd43576c742267aa4f88bc4b4474ecdddd05fac86b352e95987ec9339",
-   "size": 1080
+   "sha512": "b9b9982fe4223c33182b84442b1fc88efa9b3549b5ec9567a56d69458f0fbd9e",
+   "size": 1327
   },
   "metadata.json": {
-   "sha512": "17a76b7e6df162dc8396bd3e581f57ff5f90fdcee1e445a7f09ad035517f039d",
+   "sha512": "9d3e603d68c12e9c5d7f6aaf825a5c260be564944ee42a57a91df1adebda3e0f",
    "size": 50
   },
   "znlogo.png": {
@@ -43,22 +47,22 @@
   "ZeroNet.apk": {
    "piece_size": 1048576,
    "piecemap": "ZeroNet.apk.piecemap.msgpack",
-   "sha512": "542e2be397ff813b86489cc1c30d6d18f42def279ec164ebcaf5f4f54b69854d",
-   "size": 16125136
+   "sha512": "945ce1c612cdb66d69e27090d1db0c870ea84e91fee2f61142c67ad02405f9b3",
+   "size": 16134636
   },
   "ZeroNet.apk.piecemap.msgpack": {
-   "sha512": "c46a42bc5475763e50c3fb0f3d922f40f4d18477cf9c8c8e94bedf752f35eee2",
+   "sha512": "327e3b97750a1f1db958caeed34f1dc6d4c147cd0d6e8531078499d6dd148794",
    "size": 591
   }
  },
  "ignore": "\\.git",
  "inner_path": "content.json",
- "modified": 1514997140,
+ "modified": 1516461272,
  "optional": ".*\\.apk",
  "postmessage_nonce_security": true,
  "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
  "signs": {
-  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "G4tdpYXiCDDgdAt4A11A6y4hzdBUQlCHZSbgFJpoqo9PKDr96n8k6wTjNvwLiJnoCvTq/KkXNPF3Q0K/ITwPWD8="
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "G6SYRoAmOiaLAzGY1Nz/1vXRr2N3JBmotkzL4Of5rE5GT3ZlP8dfiIVebJ0U3jAkunCjY6Z2ikt85iIxh+tf+fE="
  },
  "signs_required": 1,
  "title": "ZeroNet Android",
