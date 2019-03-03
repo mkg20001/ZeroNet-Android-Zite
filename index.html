@@ -17,6 +17,9 @@
   .button:hover { background-color: #FFF400; border-bottom: 2px solid #4D4D4C; -webkit-transition: none ; -moz-transition: none ; -o-transition: none ; -ms-transition: none ; transition: none  }
   .button:active { position: relative; top: 1px }
   .button:focus { outline: none }
+  .dl-reco.button { background-color: #85FF5F; border-bottom: 2px solid #73CD1E; }
+  .dl-reco.button:hover { background-color: #00FF27; border-bottom: 2px solid #4C4D4C; }
+  .dl { margin-bottom: 2px; }
   a .button, a { text-decoration: none !important; color: black; }
   .seperator { border: 1px solid white; margin: 6px; }
   body { background: linear-gradient(264deg, #DFDFDF, #FFF) #DFDFDF; transition: all 2s; font-family: Consolas, monospace; }
@@ -40,8 +43,15 @@
     <h2>Release Date:<br><div class="date">...</div></h2>
     <div class="seperator"></div>
     <br>
-    <a href="./ZeroNet.apk"><div id="dllink" class="button">Download</div></a>
     <div class="ch" id="isuptodate">Checking version...</div>
+    <i class="dl">NOTE: Downloads temporarly disabled until new version is released</i>
+    <a href="./dl/"><div id="dllink-arm64" class="button dl">Download arm64-v8 (arm64)</div></a>
+    <a href="./dl/"><div id="dllink-arm" class="button dl">Download armeabi-v7a (arm)</div></a>
+    <a href="./dl/"><div id="dllink-i386" class="button dl">Download x86 (i386)</div></a>
+    <a href="./dl/"><div id="dllink-amd64" class="button dl">Download x86_64 (amd64)</div></a>
+    <div class="seperator"></div>
+    <br>
+    <a href="./ZeroNet-OLDVERSION.apk"><div id="dllink" class="button">Download Old Version</div></a>
 
   </div>
 

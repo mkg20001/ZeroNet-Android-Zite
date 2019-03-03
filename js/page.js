@@ -1,3 +1,7 @@
+if (UAParser().cpu.architecture) {
+  $('#dllink-' + UAParser().cpu.architecture).toggleClass('dl-reco')
+}
+
 class Page extends ZeroFrame {
   setSiteInfo (site_info) {
 

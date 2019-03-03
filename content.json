@@ -11,8 +11,8 @@
    "size": 250
   },
   "index.html": {
-   "sha512": "fa08f98484c4ff2f564dd611e43256f16fdb5856b17cdc7cd1cedf08bc5d0f9b",
-   "size": 2455
+   "sha512": "a29867fcf36735f7f413a4190119fb60f59a637ae81de0ed64375d8cbbd46ca1",
+   "size": 3189
   },
   "js/0/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -26,17 +26,21 @@
    "sha512": "419fa651f350826ebb4ef5f375352a504886638e1d1394ef5d18197ba45d8e48",
    "size": 51599
   },
+  "js/0/ua-parser.min.js": {
+   "sha512": "e63e5823b0b4932e4f342bf1d2a1929ffbfba224d3104275efc344b0c06687cf",
+   "size": 17814
+  },
   "js/all.js": {
-   "sha512": "09358a06f7f7af83bd544b87eed6da32f9cb4be79becd9cc6f0f9b1de83f05ac",
-   "size": 143255
+   "sha512": "eb50f88c396db5efe93e98eab9ff6dea4314b6c81eb7da231bd881cdda14e26d",
+   "size": 161255
   },
   "js/page.js": {
-   "sha512": "b9b9982fe4223c33182b84442b1fc88efa9b3549b5ec9567a56d69458f0fbd9e",
-   "size": 1327
+   "sha512": "e4c42a06303d3a54be30f7d54f29a3f207d6b9ffbb32ad7e3fdd4b35d65baab1",
+   "size": 1434
   },
   "metadata.json": {
-   "sha512": "9d3e603d68c12e9c5d7f6aaf825a5c260be564944ee42a57a91df1adebda3e0f",
-   "size": 50
+   "sha512": "059048832bb5cf1d628d7660ccf8a3072aff071ba137ae252d252a4f0ccffcb0",
+   "size": 48
   },
   "znlogo.png": {
    "sha512": "b1080ad17cf1602c46c41c64bf70428a6ec3d135f76f3edc5830e4a6e7ac9bdb",
@@ -44,29 +48,39 @@
   }
  },
  "files_optional": {
+  "ZeroNet-OLDVERSION.apk": {
+   "piece_size": 1048576,
+   "piecemap": "ZeroNet-OLDVERSION.apk.piecemap.msgpack",
+   "sha512": "86d98ccf84a9ce9c4caf6a3c142752d9da97f556f25cd5cb46df19f58d565dfa",
+   "size": 16402292
+  },
+  "ZeroNet-OLDVERSION.apk.piecemap.msgpack": {
+   "sha512": "1127b5a0275b30100943e132726513304893effd6a9048054b2c1b0e806cfa63",
+   "size": 602
+  },
   "ZeroNet.apk": {
    "piece_size": 1048576,
    "piecemap": "ZeroNet.apk.piecemap.msgpack",
-   "sha512": "945ce1c612cdb66d69e27090d1db0c870ea84e91fee2f61142c67ad02405f9b3",
-   "size": 16134636
+   "sha512": "ede9284bc36cf9e87f9d52aa35ea2a219689189bda6117c679d983cafcc6693e",
+   "size": 17874311
   },
   "ZeroNet.apk.piecemap.msgpack": {
-   "sha512": "327e3b97750a1f1db958caeed34f1dc6d4c147cd0d6e8531078499d6dd148794",
-   "size": 591
+   "sha512": "62415d809f45800c3f0f77e72ad3985914d5b0ede3585892ba0bed7fe10f9fef",
+   "size": 661
   }
  },
  "ignore": "\\.git",
  "inner_path": "content.json",
- "modified": 1516461272,
+ "modified": 1551632692,
  "optional": ".*\\.apk",
  "postmessage_nonce_security": true,
  "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
  "signs": {
-  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "G6SYRoAmOiaLAzGY1Nz/1vXRr2N3JBmotkzL4Of5rE5GT3ZlP8dfiIVebJ0U3jAkunCjY6Z2ikt85iIxh+tf+fE="
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HDdSBGPblDSuODdQaW2cgODJ4d+j6zWub0YGZI+dJc6cC0lVkAw4ebhdHYtcwZMKylqYAW2H8SlMBtE+3WzY1w8="
  },
  "signs_required": 1,
  "title": "ZeroNet Android",
  "translate": ["js/all.js"],
  "viewport": "width=device-width, initial-scale=2",
- "zeronet_version": "0.6.0"
+ "zeronet_version": "0.6.5"
 }
