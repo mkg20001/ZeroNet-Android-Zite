@@ -11,8 +11,8 @@
    "size": 250
   },
   "index.html": {
-   "sha512": "a29867fcf36735f7f413a4190119fb60f59a637ae81de0ed64375d8cbbd46ca1",
-   "size": 3189
+   "sha512": "2a373852dbb36f02df8bc173a73c7c74ca2f09064835b4d0801ad1fe4c67b87d",
+   "size": 3181
   },
   "js/0/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -39,8 +39,12 @@
    "size": 1434
   },
   "metadata.json": {
-   "sha512": "059048832bb5cf1d628d7660ccf8a3072aff071ba137ae252d252a4f0ccffcb0",
+   "sha512": "4f5ec142886ba9b6955828379a036f733f462602f5b09e63bf764dad58b45b00",
    "size": 48
+  },
+  "pull-version.sh": {
+   "sha512": "f179efa67cc6339964795842b511363be518b07962b96f6738c95d3d761fdf1f",
+   "size": 416
   },
   "znlogo.png": {
    "sha512": "b1080ad17cf1602c46c41c64bf70428a6ec3d135f76f3edc5830e4a6e7ac9bdb",
@@ -67,16 +71,60 @@
   "ZeroNet.apk.piecemap.msgpack": {
    "sha512": "62415d809f45800c3f0f77e72ad3985914d5b0ede3585892ba0bed7fe10f9fef",
    "size": 661
+  },
+  "dl/zeronet-arm64-v8.apk": {
+   "piece_size": 1048576,
+   "piecemap": "dl/zeronet-arm64-v8.apk.piecemap.msgpack",
+   "sha512": "a10c81b6b5cdd7704f14d707e6bb4dd7841a843821ff35684256b868c7494826",
+   "size": 18507684
+  },
+  "dl/zeronet-arm64-v8.apk.piecemap.msgpack": {
+   "sha512": "bd9661400e16e84effd03c0dc10015fb46d644adb3e6cc0077039e6e531a6289",
+   "size": 670
+  },
+  "dl/zeronet-armeabi-v7a.apk": {
+   "piece_size": 1048576,
+   "piecemap": "dl/zeronet-armeabi-v7a.apk.piecemap.msgpack",
+   "sha512": "81836e987e7ea2275ab5c6d932b0ff9c6c3d6f490ea8d5368d6d6821f6b84b16",
+   "size": 18319288
+  },
+  "dl/zeronet-armeabi-v7a.apk.piecemap.msgpack": {
+   "sha512": "8b413cb4a105336d2678dcf81acc5e5a76fe5f137de2c4ba6ce2b9da7764af49",
+   "size": 673
+  },
+  "dl/zeronet-x86.apk": {
+   "piece_size": 1048576,
+   "piecemap": "dl/zeronet-x86.apk.piecemap.msgpack",
+   "sha512": "1664346a922d51dc85eea3e286412ba6d737717fede484d475420f9b3b86630d",
+   "size": 19539846
+  },
+  "dl/zeronet-x86.apk.piecemap.msgpack": {
+   "sha512": "dc6b9e12c78b216c25bedf8beeed7af68d64781fafe9ebe50549962ee9af36b8",
+   "size": 700
+  },
+  "dl/zeronet-x86_64.apk": {
+   "piece_size": 1048576,
+   "piecemap": "dl/zeronet-x86_64.apk.piecemap.msgpack",
+   "sha512": "1664346a922d51dc85eea3e286412ba6d737717fede484d475420f9b3b86630d",
+   "size": 19539846
+  },
+  "dl/zeronet-x86_64.apk.piecemap.msgpack": {
+   "sha512": "01e9e1eb0c94b6ac20274f4260d29ecb687fed84f4ed42cc6d2ba4b85a52da69",
+   "size": 703
+  },
+  "zeronet-0.6.5.1-release-stable-arm64-v8a.apk.1": {
+   "sha512": "f48b3ac8b274e7fe3df7def0a3fe9b6cbd6152294e19c4ecb851a5a43b1b7d2f",
+   "size": 922145
   }
  },
  "ignore": "\\.git",
  "inner_path": "content.json",
- "modified": 1551632692,
+ "modified": 1552240186,
  "optional": ".*\\.apk",
  "postmessage_nonce_security": true,
  "signers_sign": "HPyB3S7Qat+M6Kx7u5PJQPP3az8RosAAICl96PNygUMmfeQyE/CGFzgK4z32JCjGtj4BctPYBNvan02EBbA5/Rw=",
  "signs": {
-  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HDdSBGPblDSuODdQaW2cgODJ4d+j6zWub0YGZI+dJc6cC0lVkAw4ebhdHYtcwZMKylqYAW2H8SlMBtE+3WzY1w8="
+  "1A9gZwjdcTh3bpdriaWm7Z4LNdUL8GhDu2": "HGjJunFnk4IeesYDBJsayXqHuGp7HQzE4PAaMIfkK6Yndafv5u7HAp1oOzy42jD1PebSAUuzn5lAD6CQEBwCHNs="
  },
  "signs_required": 1,
  "title": "ZeroNet Android",
